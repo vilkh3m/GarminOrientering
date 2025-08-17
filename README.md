@@ -53,7 +53,6 @@ monkeyc -d epix2pro47mm -f monkey.jungle -o bin/poligon1.prg -y /path/to/develop
 - **v1.0.0** - Initial release
   - Basic distance and bearing tracking
   - LAP point reset functionality
-  - Touch screen support
   - Time tracking from LAP point
 
 ## Author
