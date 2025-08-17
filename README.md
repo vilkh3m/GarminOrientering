@@ -62,4 +62,4 @@ Dominik Pietrzak
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the <a target="_blank" href="https://mit-license.org/">LICENSE</a> for details.
