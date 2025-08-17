@@ -1,6 +1,7 @@
 # GPS Tracker DataField
 
-A Garmin Connect IQ DataField application that tracks distance, bearing, and time from a reference LAP point.
+A Garmin Connect IQ DataField application that tracks distance, bearing, and time from a reference LAP point.    
+The application is designed to assist in navigating to points in the field for which we know the direction and distance.
 <img width="631" height="870" alt="screen" src="https://github.com/user-attachments/assets/b736c9b2-9871-4358-881f-44cd6a46481f" />
 
 
@@ -40,7 +41,7 @@ The DataField shows 4 lines of information:
 ### Building
 
 ```bash
-monkeyc -d epix2pro47mm -f monkey.jungle -o bin/poligon1.prg -y /path/to/developer_key
+monkeyc -d epix2pro47mm -f monkey.jungle -o bin/orienteringHelper.prg -y /path/to/developer_key
 ```
 
 ### Requirements
