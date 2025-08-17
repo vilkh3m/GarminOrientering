@@ -1,6 +1,8 @@
 # GPS Tracker DataField
 
 A Garmin Connect IQ DataField application that tracks distance, bearing, and time from a reference LAP point.
+<img width="631" height="870" alt="screen" src="https://github.com/user-attachments/assets/b736c9b2-9871-4358-881f-44cd6a46481f" />
+
 
 ## Features
 
@@ -14,7 +16,6 @@ A Garmin Connect IQ DataField application that tracks distance, bearing, and tim
 
 ### Setting LAP Point
 - Press **LAP button** on your Garmin device
-- **Touch the screen** (on touch-enabled devices)
 
 ### Display Information
 The DataField shows 4 lines of information:
