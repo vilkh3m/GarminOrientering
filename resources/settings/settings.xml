@@ -1,0 +1,5 @@
+<settings>
+    <setting propertyKey="@Properties.DarkMode" title="@Strings.DarkModeLabel">
+        <settingConfig type="boolean" />
+    </setting>
+</settings>

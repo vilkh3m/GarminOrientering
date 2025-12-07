@@ -46,7 +46,7 @@ class poligon1View extends WatchUi.DataField {
     function compute(info as Activity.Info) as Numeric? {
         // Save current info for use in onUpdate
         currentInfo = info;
-        
+
         // Check if activity is started
         if (info.currentLocation != null) {
             isActivityStarted = true;
@@ -105,12 +105,25 @@ class poligon1View extends WatchUi.DataField {
 
     // Display update
     function onUpdate(dc as Graphics.Dc) as Void {
-        // Clear screen
-        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_WHITE);
+        // Read Dark Mode setting from properties
+        var darkMode = Application.Properties.getValue("DarkMode");
+
+
+        // If null (not set by user), use default value from properties.xml (true)
+        if (darkMode == null) {
+            darkMode = true;
+        }
+
+        // Set colors based on Dark Mode setting
+        var backgroundColor = darkMode ? Graphics.COLOR_BLACK : Graphics.COLOR_WHITE;
+        var textColor = darkMode ? Graphics.COLOR_WHITE : Graphics.COLOR_BLACK;
+
+        // Clear screen with selected colors
+        dc.setColor(textColor, backgroundColor);
         dc.clear();
 
         // Set text colors
-        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
+        dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
 
         // Text positions
         var x = dc.getWidth() / 2;
@@ -143,7 +156,7 @@ class poligon1View extends WatchUi.DataField {
             dc.drawText(x, y2, Graphics.FONT_SMALL, totalDistanceText, Graphics.TEXT_JUSTIFY_CENTER);
             dc.drawText(x, y3, Graphics.FONT_SMALL, bearingText, Graphics.TEXT_JUSTIFY_CENTER);
             dc.drawText(x, y4, Graphics.FONT_SMALL, timeText, Graphics.TEXT_JUSTIFY_CENTER);
-            
+
             // Additional information about reset and counter
             var statusText = "LAP (" + resetCount.toString() + ")";
             dc.drawText(x, dc.getHeight() - 40, Graphics.FONT_XTINY, statusText, Graphics.TEXT_JUSTIFY_CENTER);

@@ -70,3 +70,6 @@ docs/_build/
 notes.txt
 TODO.txt
 *.notes
+
+# Instructions for AI tools
+.copilot-instructions.md
