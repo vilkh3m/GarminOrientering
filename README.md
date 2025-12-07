@@ -1,6 +1,6 @@
 # GPS Tracker DataField
 
-A Garmin Connect IQ DataField application that tracks distance, bearing, and time from a reference LAP point.    
+A Garmin Connect IQ DataField application that tracks distance, bearing, and time from a reference LAP point.
 The application is designed to assist in navigating to points in the field for which we know the direction and distance.
 <img width="631" height="870" alt="screen" src="https://github.com/user-attachments/assets/b736c9b2-9871-4358-881f-44cd6a46481f" />
 
@@ -12,6 +12,7 @@ The application is designed to assist in navigating to points in the field for w
 - **Bearing**: Shows direction to LAP point in degrees
 - **Elapsed time**: Shows time since LAP point was set
 - **LAP counter**: Shows number of LAP resets
+- **Dark Mode**: Configurable dark/light theme support
 
 ## Usage
 
@@ -28,6 +29,7 @@ The DataField shows 4 lines of information:
 ## Supported Devices
 
 - Garmin Epix 2 Pro 47mm
+- Garmin Fenix 6
 - (Other devices can be added by modifying manifest.xml)
 
 ## Installation
@@ -50,6 +52,11 @@ monkeyc -d epix2pro47mm -f monkey.jungle -o bin/orienteringHelper.prg -y /path/t
 - Developer key for signing
 
 ## Version History
+
+- **v1.0.1** - Dark Mode Support
+  - Added configurable Dark Mode setting
+  - Dark/light theme toggle in device settings
+  - Improved visual display options
 
 - **v1.0.0** - Initial release
   - Basic distance and bearing tracking
