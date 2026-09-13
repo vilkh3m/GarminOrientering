@@ -1,4 +1,4 @@
-# GPS Tracker DataField
+# Orienteering Helper
 
 A Garmin Connect IQ data field for orienteering and navigating in the field.
 It shows how far and in which direction you have moved from a reference point that you set with the **LAP** button,
@@ -86,11 +86,31 @@ use layouts already checked in the simulator.
   <img src="docs/screenshots/light-fenix7xpro.png" width="200" alt="fēnix 7X Pro, light theme" />
 </p>
 
+## Download
+
+Ready-to-install files are published on the [**Releases**](https://github.com/vilkh3m/GarminOrientering/releases/latest) page.
+
+- Each release contains several `.prg` files, for example `GarminOrientering-fenix-7.prg` or `GarminOrientering-fenix-9-47mm.prg`.
+- Many watches get exactly the same build, so one file covers a whole group of models.
+  The file is named after one watch from its group – it is not only for that watch.
+- The release description has a **File / Watches** table. Search it for your watch (Ctrl+F / Cmd+F) and download the file in the same row:
+
+  | File | Watches |
+  |------|---------|
+  | `GarminOrientering-fenix-7.prg` | Enduro 3, fēnix 7 / quatix 7, fēnix 7 Pro, fēnix 7S, …, fēnix 9 Pro Solar 47mm, Forerunner 955 / Solar |
+  | `GarminOrientering-fenix-9-47mm.prg` | D2 Mach 2, fēnix 8 47mm / 51mm, fēnix 9 47mm / 51mm, fēnix 9 Pro 47mm, …, Forerunner 965, Venu 4 45mm |
+  | … | … |
+
+- SHA-256 checksums of all files are listed at the bottom of the release description.
+
 ## Installation
 
-1. Download the `.prg` file built for your watch model.
+1. Download the `.prg` file for your watch from the latest release (see [Download](#download)).
 2. Connect the watch with a USB cable and copy the file to the `GARMIN/APPS` folder.
-3. Disconnect the watch and add the data field to an activity screen in the activity settings.
+3. Disconnect the watch and add the **Orienteering Helper** data field to an activity screen in the activity settings.
+
+File names do not change between releases, so copying a newer version replaces the previous one.
+If you installed an older release (`GarminOrientering.prg` or `orienteringHelper.prg`), delete that file from `GARMIN/APPS` first.
 
 ## Development
 
