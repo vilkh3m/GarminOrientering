@@ -2,9 +2,9 @@ import Toybox.Application;
 import Toybox.Lang;
 import Toybox.WatchUi;
 
-class poligon1App extends Application.AppBase {
+class VilkOrienteeringApp extends Application.AppBase {
 
-    private var view as poligon1View?;
+    private var view as VilkOrienteeringView?;
 
     function initialize() {
         AppBase.initialize();
@@ -17,9 +17,9 @@ class poligon1App extends Application.AppBase {
     }
 
     // Data fields do not receive button input, so no input delegate is returned.
-    // The reference point is reset with the LAP button (poligon1View.onTimerLap).
+    // The reference point is reset with the LAP button (VilkOrienteeringView.onTimerLap).
     function getInitialView() as [Views] or [Views, InputDelegates] {
-        var newView = new poligon1View();
+        var newView = new VilkOrienteeringView();
         view = newView;
         return [ newView ];
     }
@@ -33,6 +33,6 @@ class poligon1App extends Application.AppBase {
     }
 }
 
-function getApp() as poligon1App {
-    return Application.getApp() as poligon1App;
+function getApp() as VilkOrienteeringApp {
+    return Application.getApp() as VilkOrienteeringApp;
 }
