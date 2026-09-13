@@ -1,5 +1,9 @@
 <settings>
-    <setting propertyKey="@Properties.DarkMode" title="@Strings.DarkModeLabel">
-        <settingConfig type="boolean" />
+    <setting propertyKey="@Properties.Theme" title="@Strings.ThemeLabel">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.ThemeAuto</listEntry>
+            <listEntry value="1">@Strings.ThemeDark</listEntry>
+            <listEntry value="2">@Strings.ThemeLight</listEntry>
+        </settingConfig>
     </setting>
 </settings>

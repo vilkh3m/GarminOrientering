@@ -1,3 +1,4 @@
 <properties>
-    <property id="DarkMode" type="boolean">true</property>
+    <!-- 0 = follow watch, 1 = dark, 2 = light -->
+    <property id="Theme" type="number">1</property>
 </properties>

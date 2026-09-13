@@ -2,5 +2,8 @@
     <string id="AppName">GPS Tracker v1.0</string>
     <string id="AppVersion">1.0.1</string>
     <string id="AppAuthor">Dominik Pietrzak</string>
-    <string id="DarkModeLabel">Dark Mode</string>
+    <string id="ThemeLabel">Theme</string>
+    <string id="ThemeAuto">Follow watch</string>
+    <string id="ThemeDark">Dark</string>
+    <string id="ThemeLight">Light</string>
 </strings>
