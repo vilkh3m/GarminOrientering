@@ -73,3 +73,6 @@ TODO.txt
 
 # Instructions for AI tools
 .copilot-instructions.md
+# Local assistant instructions and tools (not shared)
+CLAUDE.local.md
+.local/
