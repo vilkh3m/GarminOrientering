@@ -64,10 +64,17 @@ A manually copied `.prg` file uses the default values.
 |--------|--------|
 | **fēnix 9** | fēnix 9 43mm, fēnix 9 47mm / 51mm, fēnix 9 Pro 43mm, fēnix 9 Pro 47mm, fēnix 9 Pro 51mm, fēnix 9 Pro Solar 47mm, fēnix 9 Pro Solar 51mm |
 | **fēnix 8** | fēnix 8 43mm, fēnix 8 47mm / 51mm (also tactix 8 and quatix 8), fēnix 8 Pro 47mm / 51mm (also quatix 8 Pro), fēnix 8 Solar 47mm, fēnix 8 Solar 51mm (also tactix 8 Solar 51mm) |
+| **fēnix 7** | fēnix 7 (also quatix 7), fēnix 7 Pro, fēnix 7 Pro Solar (no Wi-Fi), fēnix 7S, fēnix 7S Pro, fēnix 7X (also tactix 7, quatix 7X Solar, Enduro 2), fēnix 7X Pro, fēnix 7X Pro Solar (no Wi-Fi) |
 | **epix** | epix Pro (Gen 2) 47mm (also quatix 7 Pro) |
 | **fēnix 6** | fēnix 6 / 6 Solar / 6 Dual Power |
 
 Other devices can be added in `manifest.xml`.
+
+<p align="center">
+  <img src="docs/screenshots/dark-fenix7.png" width="200" alt="fēnix 7, dark theme" />
+  <img src="docs/screenshots/dark-fenix7s.png" width="200" alt="fēnix 7S, dark theme" />
+  <img src="docs/screenshots/light-fenix7xpro.png" width="200" alt="fēnix 7X Pro, light theme" />
+</p>
 
 ## Installation
 
