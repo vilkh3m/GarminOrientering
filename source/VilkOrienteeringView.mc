@@ -7,7 +7,7 @@ import Toybox.Graphics;
 import Toybox.Math;
 import Toybox.System;
 
-class poligon1View extends WatchUi.DataField {
+class VilkOrienteeringView extends WatchUi.DataField {
 
     // Theme setting values (see resources/settings/settings.xml)
     private const THEME_AUTO = 0;
