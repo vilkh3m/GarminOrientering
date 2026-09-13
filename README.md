@@ -63,12 +63,22 @@ A manually copied `.prg` file uses the default values.
 | Series | Models |
 |--------|--------|
 | **fēnix 9** | fēnix 9 43mm, fēnix 9 47mm / 51mm, fēnix 9 Pro 43mm, fēnix 9 Pro 47mm, fēnix 9 Pro 51mm, fēnix 9 Pro Solar 47mm, fēnix 9 Pro Solar 51mm |
-| **fēnix 8** | fēnix 8 43mm, fēnix 8 47mm / 51mm (also tactix 8 and quatix 8), fēnix 8 Pro 47mm / 51mm (also quatix 8 Pro), fēnix 8 Solar 47mm, fēnix 8 Solar 51mm (also tactix 8 Solar 51mm) |
+| **fēnix 8 / E** | fēnix 8 43mm, fēnix 8 47mm / 51mm (also tactix 8 and quatix 8), fēnix 8 Pro 47mm / 51mm (also quatix 8 Pro), fēnix 8 Solar 47mm, fēnix 8 Solar 51mm (also tactix 8 Solar 51mm), fēnix E |
 | **fēnix 7** | fēnix 7 (also quatix 7), fēnix 7 Pro, fēnix 7 Pro Solar (no Wi-Fi), fēnix 7S, fēnix 7S Pro, fēnix 7X (also tactix 7, quatix 7X Solar, Enduro 2), fēnix 7X Pro, fēnix 7X Pro Solar (no Wi-Fi) |
-| **epix** | epix Pro (Gen 2) 47mm (also quatix 7 Pro) |
-| **fēnix 6** | fēnix 6 / 6 Solar / 6 Dual Power |
+| **fēnix 6** | fēnix 6 / 6 Solar / 6 Dual Power, fēnix 6 Pro (also 6 Sapphire, 6 Pro Solar, 6 Pro Dual Power, quatix 6), fēnix 6S / 6S Solar / 6S Dual Power, fēnix 6S Pro (also 6S Sapphire, 6S Pro Solar, 6S Pro Dual Power), fēnix 6X Pro (also 6X Sapphire, 6X Pro Solar, tactix Delta, quatix 6X) |
+| **fēnix 5 Plus** | fēnix 5 Plus, fēnix 5S Plus, fēnix 5X Plus |
+| **epix** | epix (Gen 2) (also quatix 7 Sapphire), epix Pro (Gen 2) 47mm (also quatix 7 Pro), epix Pro (Gen 2) 51mm (also D2 Mach 1 Pro, tactix 7 AMOLED) |
+| **Enduro** | Enduro, Enduro 3 |
+| **Forerunner** | Forerunner 245, 245 Music, 255, 255 Music, 265, 570 47mm, 645 Music, 745, 945, 945 LTE, 955 / Solar, 965, 970 |
+| **Instinct** | Instinct 3 AMOLED 50mm |
+| **MARQ** | MARQ Adventurer, Athlete, Aviator, Captain, Commander, Driver, Expedition, Golfer |
+| **Venu / vívoactive** | Venu 2, Venu 2 Plus, Venu 3, Venu 4 45mm (also D2 Air X15), vívoactive 3 Music, vívoactive 4 |
+| **D2** | D2 Air X10, D2 Mach 1, D2 Mach 2, D2 Mach 2 Pro |
+| **Descent** | Descent Mk2 / Mk2i, Descent Mk2 S, Descent Mk3i 51mm |
+| **Other** | Approach S70 47mm, Darth Vader, First Avenger |
 
-Other devices can be added in `manifest.xml`.
+Other devices can be added in `manifest.xml`. Devices with a round 240, 260, 280, 416, 454 or 466 px screen
+use layouts already checked in the simulator.
 
 <p align="center">
   <img src="docs/screenshots/dark-fenix7.png" width="200" alt="fēnix 7, dark theme" />
